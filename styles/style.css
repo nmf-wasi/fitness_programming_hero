@@ -5,7 +5,13 @@
 	background-color: #232222;
 	/* color: lavender; */
 }
-
+/* shared designs */
+.primary_color{
+	color: rgb(255, 255, 255);
+}
+.secondary_color{
+	color: rgba(255, 255, 255, 0.5);
+}
 /* navbar design */
 nav {
 	max-width: 1440px;
@@ -64,7 +70,7 @@ nav {
 .bannar_container {
 	max-width: 1440px;
 	margin: 0 auto;
-	border: 2px solid white;
+	/* border: 2px solid white; */
 	display: flex;
 	justify-content: space-between;
 	text-align: center;
@@ -107,7 +113,8 @@ nav {
 .bannar_buttons button{
 	padding: 1.1vw 2.7vw;
 	border-radius: 42px;
-	color: rgb(255, 255, 255);;
+	font-size: 1rem;
+	color: rgb(255, 255, 255);
 }
 .bannar_buttons button:hover{
 	cursor: pointer;
@@ -195,3 +202,42 @@ nav {
 	border-radius: 50%;
 	display: inline-block;
 }
+
+
+/* changing habit design */
+
+.change_your_habit_container{
+	max-width: 1440px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.change_your_habit_container h1{
+		font-size: 3rem;
+		font-weight: 900;
+		margin-bottom: 14px;
+}
+.change_your_habit_images{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 6.66rem;
+}
+.circle_images img{
+	border: none;
+	border-radius: 50%;
+}
+.circle_images h3{
+	font-size: 1rem;
+	color: rgb(255, 255, 255);
+	margin-bottom: 6px;
+	font-weight: 600;
+	
+}
+.circle_images p{
+	font-size: 0.77rem;
+	color: rgba(255, 255, 255, 0.5);
+	width: 231px;
+	height: 36px;
+}
+
