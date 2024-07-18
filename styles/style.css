@@ -1,0 +1,197 @@
+* {
+	margin: 0;
+	font-family: "Inter", sans-serif;
+	/* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+	background-color: #232222;
+	/* color: lavender; */
+}
+
+/* navbar design */
+nav {
+	max-width: 1440px;
+	margin: 0 auto;
+	/* border: 2px solid white; */
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	margin-top: 4.063vh;
+}
+.logo {
+	color: rgb(230, 83, 60);
+	text-align: left;
+	font-size: 1.8rem;
+}
+.nav_options {
+	/* max-width: 30rem; */
+	box-sizing: border-box;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 39px;
+	/* width: 32vw; */
+}
+.nav_options ul {
+	/* border: 2px solid white; */
+	display: flex;
+	flex-direction: row;
+	gap: 3rem;
+}
+.nav_options li {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	padding: 0 0.3vw;
+}
+#home {
+	background-color: rgb(230, 83, 60);
+	color: rgb(255, 255, 255);
+	border-radius: 46px;
+	width: 92px;
+	height: 38px;
+}
+.nav_options li:hover {
+	cursor: pointer;
+}
+#about {
+	padding: 0 1.3vw;
+}
+
+/* bannar section designs */
+
+.bannar_container {
+	max-width: 1440px;
+	margin: 0 auto;
+	border: 2px solid white;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	margin-top: 7.22vw;
+	/* height: ; */
+}
+.bannar_text {
+	width: 36.111vw;
+	/* border: 2px salmon solid; */
+}
+.bannar_text h2 {
+	/* width: 90%; */
+	font-size: 4.42vw;
+	font-weight: 900;
+	line-height: 100%;
+	text-align: left;
+	color: white;
+	/* border: 2px salmon solid; */
+}
+#shape {
+	font-family: "Miama", sans-serif;
+	font-size: 9.7vw;
+	font-weight: 400;
+	/* line-height: 120%; */
+	display: inline-block;
+}
+.bannar_text p {
+	color: rgba(255, 255, 255, 0.5);
+	margin: 2rem 0;
+	text-align: left;
+}
+.join_club {
+	background: rgb(230, 83, 60);
+}
+.app{
+	color: rgb(255, 255, 255);
+	border: 1px solid rgb(255, 255, 255);
+}
+.bannar_buttons button{
+	padding: 1.1vw 2.7vw;
+	border-radius: 42px;
+	color: rgb(255, 255, 255);;
+}
+.bannar_buttons button:hover{
+	cursor: pointer;
+}
+.bannar_img{
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: right;
+	color: white;
+	position: relative;
+	height: 100%;
+}
+.bannar_img img{
+	height: 100%;
+}
+.workout_tutorials	img {
+	/* width: 349px; */
+	height: 100%;
+}
+.workout_vid {
+	text-align: left;
+	/* box-sizing: border-box; */
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 12px;
+	backdrop-filter: blur(20px);
+	background-color: rgba(255, 255, 255, 0.1);
+	position: absolute;
+	width: 193px;
+    height: 98px;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	align-content: center;
+	padding-left: 24px;
+    top: 130px;
+	left: 220px;
+}
+.workout_vid > h3 {
+	font-size: 40px;
+	font-weight: 900;
+	background-color: rgba(255, 255, 255, 0);
+	margin-bottom: 8px;
+}
+.workout_vid p {
+	color: rgba(255, 255, 255, 0.65);
+	background-color: rgba(255, 255, 255, 0);
+}
+.workout_tutorials {
+	text-align: left;
+	/* box-sizing: border-box; */
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 12px;
+	backdrop-filter: blur(20px);
+	background-color: rgba(255, 255, 255, 0.1);
+	position: absolute;
+	width: 206px;
+    height: 96px;
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+	align-items: center;
+	gap: 12px;   
+	top: 420px;
+	right: 250px;
+}
+.workout_elements{
+	border-radius: 12px;
+	background-color: rgba(255, 255, 255, 0);
+}
+.workout_tutorials h3 {
+	font-size: 24px;
+	font-weight: 900;
+	background-color: rgba(255, 255, 255, 0);
+	margin-bottom: 8px;
+}
+.workout_tutorials p {
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.65);
+	background-color: rgba(255, 255, 255, 0);
+}
+.dot {
+	height: 40px;
+	width: 40px;
+	background-color: rgb(230, 83, 60);
+	border-radius: 50%;
+	display: inline-block;
+}
