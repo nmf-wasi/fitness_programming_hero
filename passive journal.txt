@@ -1,0 +1,97 @@
+<div class="footer_container">
+				<div class="title_box">
+					<h1 class="primary_color">Fitness</i></h1>
+					<p class="secondary_color">We believe fitness should be accessible to everyone,<br>everywhere, regardless of income or access to a gym. With<br>hundreds of professional workouts.</p>
+				</div>
+				<div class="get_started_box">
+					<h1>Get Started</h1>
+					<p>Service</p>
+					<p>Contact Us</p>
+					<p>Affiliate Program</p>
+					<p>About Us</p>
+				</div>
+				<div class="get_started_box">
+					<h1>Get Started</h1>
+					<p>Fitness</p>
+					<p>Platform</p>
+					<p>Workout Libary</p>
+					<p>App Design</p>
+				</div>
+			</div>
+				<hr color="white">
+
+
+
+
+
+        
+footer{
+	background-color: #191919;
+	color: white;
+}
+.footer_container{
+	/* background-color: #0a0707; */
+	width: 80%;
+	/* padding: 5%; */
+	margin: 0 auto;
+	border: salmon 2px solid;
+	margin-bottom: 120px;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	gap: 10vw;
+}
+.title_box{
+	display: flex;
+	flex-direction: column;
+	padding-right: ;
+}
+.title_box h1{
+	margin: 0;
+	font-size: 6rem;
+	font-weight: 900;
+	justify-content: left;
+	color: rgb(230, 83, 60);
+	text-decoration: it;
+}
+.title_box p{
+	font-size: 1.8rem;
+}
+
+.get_started_box h1{
+	margin: 0.5rem 0;
+	font-size: 2rem;
+	font-weight: 900;
+}
+.get_started_box p{
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+
+.images1{
+	grid-area: item1;
+}
+.images2{
+	grid-area: item2;
+}
+.images3{
+	grid-area: item3;
+}
+.images4{
+	grid-area: item4;
+}
+.images5{
+	grid-area: item5;
+}
+.images5{
+	grid-area: item6;
+}
+.grid_images_container {
+	width: 90%;
+	display: grid;
+	grid-template-areas: 'item1 item2 item2 item3'
+							'item4 item4 item4 item5 item6';
+	gap: 0;
+}
