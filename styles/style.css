@@ -10,41 +10,24 @@
 .secondary_color {
 	color: rgba(255, 255, 255, 0.5);
 }
-.button_primary{
-    padding: 1.1vw 2.7vw;
+.button_primary {
+	padding: 1.1vw 2.7vw;
 	border-radius: 40px;
-    width: 40%;
+	width: 40%;
 	font-size: 1vw;
-	color: rgb(255, 255, 255);	
-    background: rgb(230, 83, 60);
-    border: none;
+	color: rgb(255, 255, 255);
+	background: rgb(230, 83, 60);
+	border: none;
 }
-.button_primary:hover{
-    cursor: pointer;
-    opacity: 0.9;
+.button_primary:hover {
+	cursor: pointer;
+	opacity: 0.9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 header {
 	/* background-color: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
 	background-color: #171313;
-    padding-top: 4vw;
+	padding-top: 4vw;
 }
 nav {
 	max-width: 1440px;
@@ -57,8 +40,8 @@ nav ul li {
 	list-style: none;
 	height: 2.8vw;
 	width: 6vw;
-    font-size: 1.3vw;
-    font-weight: 600;
+	font-size: 1.3vw;
+	font-weight: 600;
 	display: flex;
 	justify-content: center;
 	text-align: center;
@@ -75,7 +58,7 @@ nav ul {
 nav li:hover {
 	cursor: pointer;
 }
-nav>h1>i {
+nav > h1 > i {
 	color: rgb(230, 83, 60);
 	font-size: 3vw;
 	font-weight: 900;
@@ -98,7 +81,7 @@ nav>h1>i {
 }
 .bannar_text {
 	width: 40.111vw;
-    /* change this when you connect online font */
+	/* change this when you connect online font */
 }
 .bannar_text h1 {
 	font-size: 4.5vw;
@@ -115,31 +98,31 @@ nav>h1>i {
 }
 .bannar_text p {
 	color: rgba(255, 255, 255, 0.5);
-    font-size: 1.4vw;
+	font-size: 1.4vw;
 	margin: 2rem 0;
 	text-align: left;
 }
 .bannar_buttons {
-    max-width: 80%;
+	max-width: 80%;
 	display: flex;
-    justify-content: space-between;
-    align-items: center;
+	justify-content: space-between;
+	align-items: center;
 }
 .bannar_buttons button {
 	padding: 1.1vw 2.7vw;
 	border-radius: 40px;
-    width: 45%;
+	width: 45%;
 	font-size: 1vw;
 	color: rgb(255, 255, 255);
 }
 .join_club {
 	background: rgb(230, 83, 60);
-    border: none;
+	border: none;
 }
 .app {
 	color: rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0);    
-    border: 1px solid rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0);
+	border: 1px solid rgb(255, 255, 255);
 }
 
 .bannar_buttons button:hover {
@@ -177,8 +160,8 @@ nav>h1>i {
 	padding-left: 1.8vw;
 	top: 9vw;
 	left: 10vw;
-    /* change top and right while making responsive */
-    padding-bottom: 1vw;
+	/* change top and right while making responsive */
+	padding-bottom: 1vw;
 }
 .workout_vid > h3 {
 	font-size: 2.2vw;
@@ -186,11 +169,11 @@ nav>h1>i {
 	background-color: rgba(255, 255, 255, 0);
 	margin-bottom: 8px;
 }
-#br2{
+#br2 {
 	display: none;
 }
 .workout_vid p {
-    font-size: 0.8vw;
+	font-size: 0.8vw;
 	color: rgba(255, 255, 255, 0.65);
 	background-color: rgba(255, 255, 255, 0);
 }
@@ -212,7 +195,7 @@ nav>h1>i {
 	right: 15vw;
 	padding: 0.5rem;
 	padding-right: 1.5rem;
-    /* change top and right while making responsive */
+	/* change top and right while making responsive */
 }
 .workout_elements {
 	border-radius: 12px;
@@ -238,11 +221,8 @@ nav>h1>i {
 	margin: 0.5vw;
 }
 
-
-
-
 /* changing habit design */
-.change_your_habit{
+.change_your_habit {
 	background-color: #000000;
 	text-align: center;
 }
@@ -257,7 +237,7 @@ nav>h1>i {
 	font-size: 3.5vw;
 	margin-bottom: 14px;
 }
-#br{
+#br {
 	display: none;
 }
 .change_your_habit_container p {
@@ -266,13 +246,13 @@ nav>h1>i {
 }
 .change_your_habit_images {
 	display: grid;
-    grid-template-columns: repeat(4,1fr);
+	grid-template-columns: repeat(4, 1fr);
 	justify-content: space-around;
 	margin-top: 6.66rem;
 }
 .circle_images img {
 	border: none;
-    height: 15vw;
+	height: 15vw;
 	/* background-color: #000000; */
 	border: 4px solid #222222;
 	border-radius: 50%;
@@ -290,60 +270,54 @@ nav>h1>i {
 	color: rgba(255, 255, 255, 0.5);
 }
 
-
-
-
-
-
 /* run an extra mile */
-.run_an_extra_mile{
-    background-color: #000000;
+.run_an_extra_mile {
+	background-color: #000000;
 	padding: 3vw 0;
 }
-.run_an_extra_mile_container{
-    background-color: #222222;
-    max-width: 1440px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.run_an_extra_mile_container {
+	background-color: #222222;
+	max-width: 1440px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 	backdrop-filter: blur(20px);
 	padding: 2vw 0;
 	border-radius: 15px;
 }
-.extra_texts{
-    width: 50%;
+.extra_texts {
+	width: 50%;
 }
-.extra_texts>h1{
+.extra_texts > h1 {
 	color: rgb(255, 255, 255);
-	font-size:3.5vw;
+	font-size: 3.5vw;
 	font-weight: 900;
 	margin-bottom: 14px;
 }
-.extra_texts>p{
-	font-size:1.55rem;
-	font-weight: 900;
+.extra_texts > p {
+	font-size: 1.55rem;
 	margin-bottom: 14px;
 }
-.extra_texts>button{
-    margin-top: 2vw;
+.extra_texts > button {
+	margin-top: 2vw;
 }
-.extra_image{
-    width: 36%;
-    /* height: 50%; */
+.extra_image {
+	width: 35%;
+	overflow: hidden;
+	border-radius: 1.5vw;
 }
-.extra_image img{
-    width: 100%;
-    border-radius: 1.5vw;
+.extra_image img {
+	width: 100%;
+	transform: scale(3) translateX(-60px) translateY(40px) ;
 }
-
 
 /* trainings_and_exercises designs */
 .trainings_and_exercises {
-    background-color: #000000;
-    padding: 100px;
+	background-color: #000000;
+	padding: 100px;
 }
-.training_and_excercise_container{
+.training_and_excercise_container {
 	max-width: 1440px;
 	margin: 0 auto;
 }
@@ -357,130 +331,61 @@ nav>h1>i {
 	color: #757573;
 	font-size: 1.1rem;
 	width: 50%;
-    padding-top: 2vw;
-    padding-bottom: 2.2vw;
+	padding-top: 2vw;
+	padding-bottom: 2.2vw;
 }
 
 .grid_images_container {
-	/* display: grid; */
-	/* grid-template-columns: repeat(3,1fr); */
-	display: flex;
-	flex-direction: column;
-	gap: 0;
+	display: grid;
+    gap: 10px;
+	grid-template-columns: 2fr 3fr 1fr; 
+}
+.item_image{
+	position: relative;
+	overflow: hidden;
+}
+.item_image img {
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+}
+.overlay1{
+	background-color: rgba(6, 255, 210, 0.5);
+}
+.overlay2{
+	background-color: rgba(255, 0, 0, 0.3);
+}
+.overlay3{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.overlay4{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.overlay5{
+	background-color: rgba(66, 255, 0, 0.3);
+}
+.overlay6{
+	background-color: rgba(0, 71, 255, 0.3);
 }
 
-.row1{
-	display: flex;
-}
-.row2{
-	display: flex;
-}
-
-.images1 {
-	height: 30vh;
-	width: 22vw;
-	background: url("../images/exercise1.jpg") 50% / cover no-repeat;
-	/* background-blend-mode:color-burn ; */
-	display: flex;
-	align-items: end;
-	font-weight: 800;
-}
-.images1>p{
-	height: 20%;
-	text-align: left;
-	padding-left: 20px;
-	/* width: 20%; */
-	/* border: salmon 2px solid; */
-	font-size: 1.vw;
-	background-color: rgba(0, 0, 0,0);
-}
-
-.images2 {
-	height: 30vh;
-	width: 48vw;
-	display: flex;
-	font-weight: 800;
-	color: aqua;
-	background: url("../images/exercise2.png") 50% / cover no-repeat ;	
-}
-.images2>p{
-	height: 20%;
-	padding-left: 30px;
-	padding-top: 30px;
-	font-size: 1.2vw;
-	background-color: rgba(0, 0, 0,0);
-}
-
-.images3 {
-	height: 30vh;
-	width: 30vw;
-	display: flex;
-	align-items: end;
-	font-weight: 800;
-	background: url("../images/exercise3.png") 50% / cover no-repeat;
-}
-.images3>p{
-	height: 20%;
-	padding-left: 30px;
-	padding-top: 30px;
-	color: rgb(255, 255, 255);
-	font-size: 1.2vw;
-	background-color: rgba(0, 0, 0,0);
-}
-
-.images4 {
-	height: 30vh;
-	width: 40vw;
-	display: flex;
-	font-weight: 800;
-	background: url("../images/exercise4.png") 50% / cover no-repeat;
-}
-.images4>p{
-	height: 20%;
-	padding-left: 70%;
-	padding-top: 30px;
-	color: white;
-	font-size: 1.2vw;
-	background-color: rgba(0, 0, 0,0);
-}
-
-.images5 {
-	height: 30vh;
-	width: 20vw;
-	display: flex;
-	font-weight: 800;
-	background-size: cover;
-	background: url("../images/exercise5.jpg") 50% / cover no-repeat;
-}
-.images5>p{
-	height: 20%;
-	padding-left: 10%;
-	padding-top: 70%;
-	color: white;
-	font-size: 1.2vw;
-	background-color: rgba(0, 0, 0,0);
-}
-
-.images6 {
-	height: 30vh;
-	width: 40vw;
-	display: flex;
-	font-weight: 800;
-	background: url("../images/exercise6.jpg") 50% / cover no-repeat;
-}
-.images6>p{
-	height: 20%;
-	padding-left: 10%;
-	padding-top: 35%;
-	color: black;
-	font-size: 1.2rem;
-	background-color: rgba(0, 0, 0,0);
-}
-
+/* insert bin here */
 
 /* bmi chart */
-.bmi_calc_content{
-    background-color : #000000;
+.bmi_calc_content {
+	background-color: #000000;
 }
 .bmi_calc {
 	max-width: 1440px;
@@ -488,41 +393,39 @@ nav>h1>i {
 	padding-top: 120px;
 	padding-bottom: 120px;
 }
-.bmi_calc>h1 {
+.bmi_calc > h1 {
 	font-size: 5vw;
 	font-weight: 900;
 	max-width: 70%;
 	margin: 0 auto;
 }
-.bmi_calc>p {
+.bmi_calc > p {
 	font-size: 1.5vw;
 	max-width: 70%;
 	margin: 0 auto;
 }
 
-
-
 /* bmi_chart_bg */
-.bmi_chart_bg{
-    background-color: #222222;
+.bmi_chart_bg {
+	background-color: #222222;
 	/* padding-top: 80px; */
 	padding-bottom: 80px;
 }
-.chart>h1{
-    font-size: 2vw;
-    font-weight: 900;
-    padding: 1vw 0;
-    margin-bottom: 3vw;
+.chart > h1 {
+	font-size: 2vw;
+	font-weight: 900;
+	padding: 1vw 0;
+	margin-bottom: 3vw;
 }
-.bmi_chart{
+.bmi_chart {
 	max-width: 80%;
 	margin: 0 auto;
 	padding-top: 100px;
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
-.bmi_chart th{
-    font-size: 1vw;
+.bmi_chart th {
+	font-size: 1vw;
 	color: white;
 	font-weight: 800;
 	border: 1px solid rgba(255, 255, 255, 0.5);
@@ -530,107 +433,105 @@ nav>h1>i {
 	padding: 1vw;
 	text-align: left;
 	border-collapse: collapse;
-    justify-content: center;
+	justify-content: center;
 }
-.bmi_chart td{
+.bmi_chart td {
 	color: rgba(255, 255, 255, 0.5);
-	border: 1px solid rgba(255, 255, 255, 0.5) ;
+	border: 1px solid rgba(255, 255, 255, 0.5);
 	width: 9.5vw;
 	padding: 0.5vw;
-    font-size: 1vw;
+	font-size: 1vw;
 	border-collapse: collapse;
-    justify-content: center;
+	justify-content: center;
 }
-.bmi_chart table{
+.bmi_chart table {
 	border-collapse: collapse;
-    padding-top: 1vw;
+	padding-top: 1vw;
 	padding-bottom: 1vw;
 }
-.calc{
-    width: 55%;
+.calc {
+	width: 55%;
 }
-.calc>h1{
-    font-size: 2vw;
-    font-weight: 900;
-    padding: 1vw 0;
+.calc > h1 {
+	font-size: 2vw;
+	font-weight: 900;
+	padding: 1vw 0;
 }
-.calc>p{
-    font-size: 1vw;
-    padding-bottom: 2vw;
-}
-.input_row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;    
-    gap: 10px;
-}
-.inputs{
-    display: flex;
-    flex-direction: column;
-}
-.inputs input{
-    background-color: #383837;
-    height: 3vw;
-    border-radius: 10px;
-    border: none;
-    box-shadow: none;
-    font-size: 1vw;
-    padding: 0 1vw;
-    margin: 0.5vw 0;
-}
-.inputs > .input_row > input{
-    width: 45%;
-}
-.btn_join{
-    padding: 1.1vw 2.7vw;
-	border-radius: 40px;
-    width: 40%;
-    font-weight: 900;
+.calc > p {
 	font-size: 1vw;
-	color: rgb(255, 255, 255);	
-    background: rgb(230, 83, 60);
-    border: none;
-    margin-top: 1.3vw;
+	padding-bottom: 2vw;
 }
-.btn_join:hover{
-    cursor: pointer;
-    opacity: 0.8;
+.input_row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 10px;
 }
-
-
+.inputs {
+	display: flex;
+	flex-direction: column;
+}
+.inputs input {
+	background-color: #383837;
+	height: 3vw;
+	border-radius: 10px;
+	border: none;
+	box-shadow: none;
+	font-size: 1vw;
+	padding: 0 1vw;
+	margin: 0.5vw 0;
+}
+.inputs > .input_row > input {
+	width: 45%;
+}
+.btn_join {
+	padding: 1.1vw 2.7vw;
+	border-radius: 40px;
+	width: 40%;
+	font-weight: 900;
+	font-size: 1vw;
+	color: rgb(255, 255, 255);
+	background: rgb(230, 83, 60);
+	border: none;
+	margin-top: 1.3vw;
+}
+.btn_join:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
 
 /* Meet our teams Section */
-.meet_our_team{
+.meet_our_team {
 	background-color: #000000;
 	padding: 100px 0;
 }
-.meet_our_team_container{
+.meet_our_team_container {
 	max-width: 1440px;
 	margin: 0 auto;
 	text-align: center;
 }
-.team_text h1{
+.team_text h1 {
 	font-size: 3vw;
-    font-weight: 900;
-    padding: 1vw 0;
+	font-weight: 900;
+	padding: 1vw 0;
 }
-.team_text p{
+.team_text p {
 	font-size: 1vw;
 }
-.team_images{
+.team_images {
 	background-color: #191919;
 	border-radius: 12px;
 	align-items: center;
 }
-.img_container{
+.img_container {
 	display: grid;
-	grid-template-columns: repeat(3,1fr);
+	grid-template-columns: repeat(3, 1fr);
 	gap: 24px;
 	justify-content: center;
 	align-content: center;
 	padding: 1.5vw;
 }
-.trainer{
+.trainer {
 	display: flex;
 	/* flex-direction: column; */
 	justify-content: left;
@@ -640,112 +541,111 @@ nav>h1>i {
 	background-color: #000000;
 	border-radius: 12px;
 }
-.trainer_text{
+.trainer_text {
 	text-align: left;
 	padding-bottom: 2vw;
 	padding-left: 2vw;
 }
-.trainer_text h3{
+.trainer_text h3 {
 	font-size: 1.5vw;
 }
-.trainer_text p{
+.trainer_text p {
 	font-size: 1.1vw;
 }
-.trainer1{
+.trainer1 {
 	background-image: url(./images/trainer1.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	filter: brightness(0.8);
 }
-.trainer2{
+.trainer2 {
 	background-image: url(./images/trainer2.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	filter: brightness(0.8);
 }
-.trainer3{
+.trainer3 {
 	background-image: url(./images/trainer3.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	filter: brightness(0.8);
 }
-.trainer4{
+.trainer4 {
 	background-image: url(./images/trainer4.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position-x: center;
 	filter: brightness(0.8);
 }
-.trainer5{
+.trainer5 {
 	background-image: url(./images/trainer5.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	filter: brightness(0.8);
 }
-.trainer6{
+.trainer6 {
 	background-image: url(./images/trainer6.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	filter: brightness(0.8);
 }
 
-
 /* footer designs */
-footer{
+footer {
 	background-color: #191919;
 	padding: 50px 0;
 }
-.footer_contents{
+.footer_contents {
 	max-width: 1440px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 }
-footer h1>i {
+footer h1 > i {
 	color: rgb(230, 83, 60);
 	font-size: 5vw;
 	font-weight: 900;
 	margin-bottom: 2vw;
 }
-footer p{
+footer p {
 	font-size: 1.2vw;
 	margin-top: 2vw;
 	color: rgba(255, 255, 255, 0.5);
 }
-.get_started_Side{
+.get_started_Side {
 	display: flex;
 	gap: 10vw;
 }
-.get_started_Side li{
+.get_started_Side li {
 	list-style: none;
-	color:  rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 0.5);
 	margin-bottom: 1.2vw;
 	font-size: 1.5vw;
 	font-weight: 350;
 }
-.get_started_Side :hover{
-	cursor: pointer;	
+.get_started_Side :hover {
+	cursor: pointer;
 }
-#GS{
+#GS {
 	color: rgb(255, 255, 255);
 	font-size: 2vw;
 	font-weight: 900;
 	padding-bottom: 0.7vw;
 }
-#hr{
+#hr {
 	width: 80%;
-	margin: 0 auto;	
+	margin: 0 auto;
 	margin-top: 3vw;
 	margin-bottom: 1vw;
 }
-.copyrights>p{
+.copyrights > p {
 	padding: 2vw 0;
 	width: 80%;
 	margin: 0 auto;
 	text-align: center;
 }
 
-@media screen and (max-width: 392px){
+@media screen and (max-width: 392px) {
 	/* <!-- bannar section --> */
 	.bannar_container {
 		flex-direction: column;
@@ -774,7 +674,7 @@ footer p{
 		justify-content: space-between;
 		align-items: center;
 	}
-	#club{
+	#club {
 		display: none;
 	}
 	.bannar_buttons button {
@@ -794,7 +694,8 @@ footer p{
 		top: 20vw;
 		left: 50vw;
 		border-radius: 2vw;
-		/* change top and right while making responsive */		padding-bottom: 1vw;
+		/* change top and right while making responsive */
+		padding-bottom: 1vw;
 	}
 	.workout_vid > h3 {
 		padding-left: 1.5vw;
@@ -830,12 +731,12 @@ footer p{
 		width: 5vw;
 	}
 
-		/* changing habit design */
+	/* changing habit design */
 	.change_your_habit_container h1 {
 		font-size: 2rem;
 		margin-top: 0;
 	}
-	#br{
+	#br {
 		display: inline;
 	}
 	.change_your_habit_container p {
@@ -865,41 +766,43 @@ footer p{
 		color: rgba(255, 255, 255, 0.5);
 	}
 
-
 	/* run an extra mile */
 
-.run_an_extra_mile_container{
-    display: flex;
-	flex-direction: column;
-	width: 90%;
-	margin: 0 auto;
-}
-.extra_texts{
-    width: 80%;
-}
-.extra_texts>h1{
-	color: rgb(255, 255, 255);
-	font-size:2.5rem;
-	font-weight: 900;
-	margin-top: 1rem;
-	margin-bottom: 14px;
-}
-#br2{
-	display: inline;
-}
-.extra_texts>p{
-	font-size:0.8rem;
-	margin-bottom: 0px;
-}
-.extra_texts>button{
-	font-size: 1rem;
+	.run_an_extra_mile_container {
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		margin: 0 auto;
+	}
+	.extra_texts {
+		width: 80%;
+	}
+	.extra_texts > h1 {
+		color: rgb(255, 255, 255);
+		font-size: 2.5rem;
+		font-weight: 900;
+		margin-top: 1rem;
+		margin-bottom: 14px;
+	}
+	#br2 {
+		display: inline;
+	}
+	.extra_texts > p {
+		font-size: 0.8rem;
+		margin-bottom: 0px;
+	}
+	.extra_texts > button {
+		font-size: 1rem;
+		width: 100%;
+		height: 2.5rem;
+		margin: 1rem auto;
+	}
+	.extra_image {
+		width: 80%;
+		margin-bottom: 1rem;
+	}
+	.extra_image img {
 	width: 100%;
-	height: 2.5rem;
-	margin: 1rem auto;
-}
-.extra_image{
-    width: 80%;
-	margin-bottom: 1rem;
+	transform: scale(1);
 }
 }
-

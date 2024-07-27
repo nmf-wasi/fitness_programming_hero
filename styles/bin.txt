@@ -1,0 +1,100 @@
+.images1 {
+	height: 30vh;
+	width: 22vw;
+	background: url("../images/exercise1.jpg") 50% / cover no-repeat;
+	/* background-blend-mode:color-burn ; */
+	display: flex;
+	align-items: end;
+	font-weight: 800;
+}
+.images1 > p {
+	height: 20%;
+	text-align: left;
+	padding-left: 20px;
+	/* width: 20%; */
+	/* border: salmon 2px solid; */
+	font-size: 1vw;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.images2 {
+	height: 30vh;
+	width: 48vw;
+	display: flex;
+	font-weight: 800;
+	color: aqua;
+	background: url("../images/exercise2.png") 50% / cover no-repeat;
+}
+.images2 > p {
+	height: 20%;
+	padding-left: 30px;
+	padding-top: 30px;
+	font-size: 1.2vw;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.images3 {
+	height: 30vh;
+	width: 30vw;
+	display: flex;
+	align-items: end;
+	font-weight: 800;
+	background: url("../images/exercise3.png") 50% / cover no-repeat;
+}
+.images3 > p {
+	height: 20%;
+	padding-left: 30px;
+	padding-top: 30px;
+	color: rgb(255, 255, 255);
+	font-size: 1.2vw;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.images4 {
+	height: 30vh;
+	width: 40vw;
+	display: flex;
+	font-weight: 800;
+	background: url("../images/exercise4.png") 50% / cover no-repeat;
+}
+.images4 > p {
+	height: 20%;
+	padding-left: 70%;
+	padding-top: 30px;
+	color: white;
+	font-size: 1.2vw;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.images5 {
+	height: 30vh;
+	width: 20vw;
+	display: flex;
+	font-weight: 800;
+	background-size: cover;
+	background: url("../images/exercise5.jpg") 50% / cover no-repeat;
+}
+.images5 > p {
+	height: 20%;
+	padding-left: 10%;
+	padding-top: 70%;
+	color: white;
+	font-size: 1.2vw;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.images6 {
+	height: 30vh;
+	width: 40vw;
+	display: flex;
+	font-weight: 800;
+	background: url("../images/exercise6.jpg") 50% / cover no-repeat;
+}
+.images6 > p {
+	height: 20%;
+	padding-left: 10%;
+	padding-top: 35%;
+	color: black;
+	font-size: 1.2rem;
+	background-color: rgba(0, 0, 0, 0);
+}
