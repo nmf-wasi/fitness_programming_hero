@@ -11,10 +11,10 @@
 	color: rgba(255, 255, 255, 0.5);
 }
 .button_primary {
-	padding: 1.1vw 2.7vw;
+	padding: 1.1rem 2.7rem;
 	border-radius: 40px;
 	width: 40%;
-	font-size: 1vw;
+	font-size: 1rem;
 	color: rgb(255, 255, 255);
 	background: rgb(230, 83, 60);
 	border: none;
@@ -60,7 +60,7 @@ nav li:hover {
 }
 nav > h1 > i {
 	color: rgb(230, 83, 60);
-	font-size: 3vw;
+	font-size: 3rem;
 	font-weight: 900;
 }
 #home {
@@ -84,7 +84,7 @@ nav > h1 > i {
 	/* change this when you connect online font */
 }
 .bannar_text h1 {
-	font-size: 4.5vw;
+	font-size: 4.5rem;
 	font-weight: 900;
 	line-height: 100%;
 	text-align: left;
@@ -92,13 +92,13 @@ nav > h1 > i {
 }
 #shape {
 	font-family: "Miama", sans-serif;
-	font-size: 9.7vw;
+	font-size: 9.7rem;
 	font-weight: 400;
 	display: inline-block;
 }
 .bannar_text p {
 	color: rgba(255, 255, 255, 0.5);
-	font-size: 1.4vw;
+	font-size: 1.4rem;
 	margin: 2rem 0;
 	text-align: left;
 }
@@ -109,10 +109,10 @@ nav > h1 > i {
 	align-items: center;
 }
 .bannar_buttons button {
-	padding: 1.1vw 2.7vw;
+	padding: 1.1rem 2.7rem;
 	border-radius: 40px;
 	width: 45%;
-	font-size: 1vw;
+	font-size: 1rem;
 	color: rgb(255, 255, 255);
 }
 .join_club {
@@ -164,7 +164,7 @@ nav > h1 > i {
 	padding-bottom: 1vw;
 }
 .workout_vid > h3 {
-	font-size: 2.2vw;
+	font-size: 2.2rem;
 	font-weight: 900;
 	background-color: rgba(255, 255, 255, 0);
 	margin-bottom: 8px;
@@ -173,7 +173,7 @@ nav > h1 > i {
 	display: none;
 }
 .workout_vid p {
-	font-size: 0.8vw;
+	font-size: 0.8rem;
 	color: rgba(255, 255, 255, 0.65);
 	background-color: rgba(255, 255, 255, 0);
 }
@@ -202,19 +202,19 @@ nav > h1 > i {
 	background-color: rgba(255, 255, 255, 0);
 }
 .workout_tutorials h3 {
-	font-size: 1.6vw;
+	font-size: 1.6rem;
 	font-weight: 900;
 	background-color: rgba(255, 255, 255, 0);
 	margin-bottom: 8px;
 }
 .workout_tutorials p {
-	font-size: 0.9vw;
+	font-size: 0.9rem;
 	color: rgba(255, 255, 255, 0.65);
 	background-color: rgba(255, 255, 255, 0);
 }
 .dot {
-	height: 2.7vw;
-	width: 2.7vw;
+	height: 5rem;
+	width: 5rem;
 	background-color: rgb(230, 83, 60);
 	border-radius: 50%;
 	display: inline-block;
@@ -234,14 +234,14 @@ nav > h1 > i {
 	padding-bottom: 100px;
 }
 .change_your_habit_container h1 {
-	font-size: 3.5vw;
+	font-size: 3.5rem;
 	margin-bottom: 14px;
 }
 #br {
 	display: none;
 }
 .change_your_habit_container p {
-	font-size: 1.1vw;
+	font-size: 1.1rem;
 	font-weight: 400;
 }
 .change_your_habit_images {
@@ -258,14 +258,14 @@ nav > h1 > i {
 	border-radius: 50%;
 }
 .circle_images h3 {
-	font-size: 1.1vw;
+	font-size: 1.1rem;
 	color: rgb(255, 255, 255);
 	padding-top: 3vh;
 	padding-bottom: 6px;
 	font-weight: 600;
 }
 .circle_images p {
-	font-size: 1vw;
+	font-size: 1rem;
 	font-weight: 400;
 	color: rgba(255, 255, 255, 0.5);
 }
@@ -291,7 +291,7 @@ nav > h1 > i {
 }
 .extra_texts > h1 {
 	color: rgb(255, 255, 255);
-	font-size: 3.5vw;
+	font-size: 3.5rem;
 	font-weight: 900;
 	margin-bottom: 14px;
 }
@@ -394,13 +394,13 @@ nav > h1 > i {
 	padding-bottom: 120px;
 }
 .bmi_calc > h1 {
-	font-size: 5vw;
+	font-size: 5rem;
 	font-weight: 900;
 	max-width: 70%;
 	margin: 0 auto;
 }
 .bmi_calc > p {
-	font-size: 1.5vw;
+	font-size: 1.5rem;
 	max-width: 70%;
 	margin: 0 auto;
 }
@@ -412,7 +412,7 @@ nav > h1 > i {
 	padding-bottom: 80px;
 }
 .chart > h1 {
-	font-size: 2vw;
+	font-size: 2rem;
 	font-weight: 900;
 	padding: 1vw 0;
 	margin-bottom: 3vw;
@@ -425,7 +425,7 @@ nav > h1 > i {
 	justify-content: space-between;
 }
 .bmi_chart th {
-	font-size: 1vw;
+	font-size: 1rem;
 	color: white;
 	font-weight: 800;
 	border: 1px solid rgba(255, 255, 255, 0.5);
@@ -440,7 +440,7 @@ nav > h1 > i {
 	border: 1px solid rgba(255, 255, 255, 0.5);
 	width: 9.5vw;
 	padding: 0.5vw;
-	font-size: 1vw;
+	font-size: 1rem;
 	border-collapse: collapse;
 	justify-content: center;
 }
@@ -453,12 +453,12 @@ nav > h1 > i {
 	width: 55%;
 }
 .calc > h1 {
-	font-size: 2vw;
+	font-size: 2rem;
 	font-weight: 900;
 	padding: 1vw 0;
 }
 .calc > p {
-	font-size: 1vw;
+	font-size: 1rem;
 	padding-bottom: 2vw;
 }
 .input_row {
@@ -477,7 +477,7 @@ nav > h1 > i {
 	border-radius: 10px;
 	border: none;
 	box-shadow: none;
-	font-size: 1vw;
+	font-size: 1rem;
 	padding: 0 1vw;
 	margin: 0.5vw 0;
 }
@@ -489,7 +489,7 @@ nav > h1 > i {
 	border-radius: 40px;
 	width: 40%;
 	font-weight: 900;
-	font-size: 1vw;
+	font-size: 1rem;
 	color: rgb(255, 255, 255);
 	background: rgb(230, 83, 60);
 	border: none;
@@ -511,12 +511,12 @@ nav > h1 > i {
 	text-align: center;
 }
 .team_text h1 {
-	font-size: 3vw;
+	font-size: 3rem;
 	font-weight: 900;
 	padding: 1vw 0;
 }
 .team_text p {
-	font-size: 1vw;
+	font-size: 1rem;
 }
 .team_images {
 	background-color: #191919;
@@ -547,10 +547,10 @@ nav > h1 > i {
 	padding-left: 2vw;
 }
 .trainer_text h3 {
-	font-size: 1.5vw;
+	font-size: 1.5rem
 }
 .trainer_text p {
-	font-size: 1.1vw;
+	font-size: 1.1rem;
 }
 .trainer1 {
 	background-image: url(./images/trainer1.png);
@@ -603,12 +603,12 @@ footer {
 }
 footer h1 > i {
 	color: rgb(230, 83, 60);
-	font-size: 5vw;
+	font-size: 5rem;
 	font-weight: 900;
 	margin-bottom: 2vw;
 }
 footer p {
-	font-size: 1.2vw;
+	font-size: 1.2rem;
 	margin-top: 2vw;
 	color: rgba(255, 255, 255, 0.5);
 }
@@ -620,7 +620,7 @@ footer p {
 	list-style: none;
 	color: rgba(255, 255, 255, 0.5);
 	margin-bottom: 1.2vw;
-	font-size: 1.5vw;
+	font-size: 1.5rem;
 	font-weight: 350;
 }
 .get_started_Side :hover {
@@ -628,7 +628,7 @@ footer p {
 }
 #GS {
 	color: rgb(255, 255, 255);
-	font-size: 2vw;
+	font-size: 2rem;
 	font-weight: 900;
 	padding-bottom: 0.7vw;
 }
@@ -656,14 +656,14 @@ footer p {
 		/* change this when you connect online font */
 	}
 	.bannar_text h1 {
-		font-size: 10vw;
+		font-size: 10rem;
 	}
 	#shape {
-		font-size: 13.7vw;
+		font-size: 13.7rem;
 	}
 	.bannar_text p {
 		width: 68%;
-		font-size: 4vw;
+		font-size: 4rem;
 		margin: 1rem 0;
 		text-align: left;
 	}
@@ -680,8 +680,8 @@ footer p {
 	.bannar_buttons button {
 		width: 45%;
 		height: 10vw;
-		font-size: 4vw;
-	}
+		font-size: 4rem;
+	}	
 	.bannar_buttons button:hover {
 		cursor: pointer;
 	}
